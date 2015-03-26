@@ -1,0 +1,13 @@
+{
+  "name": "inventApp",
+  "description": "",
+  "directory": "app/bower_components",
+  "version": "0.0.0",
+  "homepage": "",
+  "license": "MIT",
+  "dependencies": {
+    "Chart.js": "~1.0.2",
+    "hammer.js": "~2.0.4",
+    "swiper": "~3.0.5"
+  }
+}
