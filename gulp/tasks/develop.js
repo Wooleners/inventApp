@@ -4,8 +4,7 @@ var gulp = require('gulp'),
     filenames = require('gulp-filenames');
 
 gulp.task('dev:jsLib',function(){
-  var jsStr = "<script src='/app/" + config.jsLib.join("'></script>"+"\r\t\t"+"<script src='/app/") + "'></script>";
-  config.loadSrc.jsLib = jsStr;
+  config.loadSrc.jsLib = config.jsLib.length == 0 ? "" : "<script src='/app/" + config.jsLib.join("'></script>"+"\r\t\t"+"<script src='/app/") + "'></script>";
 });
 
 gulp.task('jsAppFileNames',function(){
@@ -18,8 +17,7 @@ gulp.task('dev:jsApp',['jsAppFileNames'],function(){
 });
 
 gulp.task('dev:cssLib',function(){
-  var cssStr = "<link rel='stylesheet' href='/app/" + config.cssLib.join("'/>"+"\r\t\t"+"<link rel='stylesheet' href='/app/") + "'/>";
-  config.loadSrc.cssLib = cssStr;
+  config.loadSrc.cssLib = config.cssLib.length == 0 ? "" : "<link rel='stylesheet' href='/app/" + config.cssLib.join("'/>"+"\r\t\t"+"<link rel='stylesheet' href='/app/") + "'/>";
 });
 
 gulp.task('dev:cssApp',['build:less'],function(){
@@ -29,10 +27,10 @@ gulp.task('dev:cssApp',['build:less'],function(){
 
 gulp.task('dev:files',function(){
   gulp.src(['src/**/*.*']).pipe(gulp.dest('app/'));
-});
+}); 
 
 gulp.task('dev:app',['dev:jsLib','dev:jsApp','dev:cssLib','dev:cssApp','dev:files'],function(){
-  gulp.src('src/modules/index/index.html').pipe(htmlReplace({
+  gulp.src('src/index.html').pipe(htmlReplace({
     'cssLib': config.loadSrc.cssLib,
     'cssApp': config.loadSrc.cssApp,
     'jsLib': config.loadSrc.jsLib,

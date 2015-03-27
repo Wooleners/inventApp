@@ -8,6 +8,7 @@
   "dependencies": {
     "Chart.js": "~1.0.2",
     "hammer.js": "~2.0.4",
-    "swiper": "~3.0.5"
+    "swiper": "~3.0.5",
+    "handlebars": "~3.0.0"
   }
 }
