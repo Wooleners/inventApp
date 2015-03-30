@@ -28,11 +28,15 @@
     "gulp-rename": "1.2.0",
     "gulp-html-replace": "1.1.0",
     "gulp-filenames": "^1.2.0",
-    "gulp-watch":"^1.1.0"
+    "gulp-watch": "^1.1.0"
   },
   "scripts": {
     "prestart": "npm install",
     "postinstall": "bower install",
     "start": "http-server -p 8000 -c-1"
+  },
+  "dependencies": {
+    "gulp-livereload": "^3.8.0",
+    "tiny-lr": "^0.1.5"
   }
 }

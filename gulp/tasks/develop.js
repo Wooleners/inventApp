@@ -29,7 +29,7 @@ gulp.task('dev:files',function(){
   gulp.src(['src/**/*.*']).pipe(gulp.dest('app/'));
 }); 
 
-gulp.task('dev:app',['dev:jsLib','dev:jsApp','dev:cssLib','dev:cssApp','dev:files'],function(){
+gulp.task('dev:app',['dev:files','dev:jsLib','dev:jsApp','dev:cssLib','dev:cssApp'],function(){
   gulp.src('src/index.html').pipe(htmlReplace({
     'cssLib': config.loadSrc.cssLib,
     'cssApp': config.loadSrc.cssApp,
