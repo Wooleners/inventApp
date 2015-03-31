@@ -9,6 +9,7 @@
     "Chart.js": "~1.0.2",
     "hammer.js": "~2.0.4",
     "swiper": "~3.0.5",
-    "handlebars": "~3.0.0"
+    "handlebars": "~3.0.0",
+    "zeptojs": "~1.1.6"
   }
 }

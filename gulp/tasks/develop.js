@@ -30,7 +30,7 @@ gulp.task('dev:files',function(){
 }); 
 
 gulp.task('dev:app',['dev:files','dev:jsLib','dev:jsApp','dev:cssLib','dev:cssApp'],function(){
-  gulp.src('src/index.html').pipe(htmlReplace({
+  gulp.src('src/modules/index/index.html').pipe(htmlReplace({
     'cssLib': config.loadSrc.cssLib,
     'cssApp': config.loadSrc.cssApp,
     'jsLib': config.loadSrc.jsLib,
