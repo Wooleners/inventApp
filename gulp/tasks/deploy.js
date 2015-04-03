@@ -22,7 +22,7 @@ gulp.task('deploy:css',['build:less'],function(){
     gulp.src(config.cssLib).pipe(concatCss('lib.min.css'))
       .pipe(gulp.dest('app/css/'))
       .pipe(minifycss())
-      .pipe(gulp.dest('app/css/'))
+      .pipe(gulp.dest('app/css/'));
   );
 });
 

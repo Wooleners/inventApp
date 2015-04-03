@@ -12,6 +12,7 @@
 		//Your options here:
 		mode: 'horizontal',
 		direction: 'vertical',
+		followFinger: false,
 		onSlideChangeEnd: function(sw){
 			$("#header").toggleClass("header");
 			$("#footer").toggleClass("footer");

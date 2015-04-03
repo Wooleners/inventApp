@@ -36,6 +36,8 @@
     "start": "http-server -p 8000 -c-1"
   },
   "dependencies": {
+    "browser-sync": "^2.5.2",
+    "gulp-autoprefixer": "^2.1.0",
     "gulp-livereload": "^3.8.0",
     "tiny-lr": "^0.1.5"
   }

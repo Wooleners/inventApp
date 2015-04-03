@@ -3,13 +3,11 @@ body {
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
-  background: url("images/bg.jpg");
   line-height: 1.5;
-  -moz-user-select: none;
   -webkit-user-select: none;
-  -ms-user-select: none;
-  -khtml-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .swiper-container {
   width: 100%;
@@ -25,8 +23,8 @@ body {
   position: relative;
 }
 .swiper-slide .header {
-  font-size: 21px;
-  margin-top: 60px;
+  font-size: 20px;
+  margin-top: 10px;
   margin-bottom: 0;
   line-height: 22px;
   margin-left: 15px;
@@ -59,19 +57,6 @@ body {
     -webkit-transform: translateX(0);
   }
 }
-@-moz-keyframes bounceInLeft {
-  0% {
-    opacity: 0;
-    -moz-transform: translateX(-2000px);
-  }
-  60% {
-    opacity: 1;
-    -moz-transform: translateX(30px);
-  }
-  100% {
-    -moz-transform: translateX(0);
-  }
-}
 .footer {
   -webkit-animation: bounceInUp 3s .2s ease both;
   -moz-animation: bounceInUp 3s .2s ease both;
@@ -87,18 +72,5 @@ body {
   }
   100% {
     -webkit-transform: translateY(0);
-  }
-}
-@-moz-keyframes bounceInUp {
-  0% {
-    opacity: 0;
-    -moz-transform: translateY(2000px);
-  }
-  60% {
-    opacity: 1;
-    -moz-transform: translateY(-30px);
-  }
-  100% {
-    -moz-transform: translateY(0);
   }
 }
