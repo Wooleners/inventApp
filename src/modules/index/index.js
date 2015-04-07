@@ -25,23 +25,30 @@
 		datasets: [
 			{
 				label: "My First dataset",
-            fillColor: "rgba(82,82,82,0)",
-            strokeColor: "rgba(220,220,220,1)",
-            pointColor: "rgba(220,220,220,0)",
-            pointStrokeColor: "#fff",
-            pointHighlightFill: "#fff",
+            fillColor: "rgba(100, 100, 100, 0.8)",
+            strokeColor: "rgba(0,0,0,0)",
+            pointColor: "#ff6600",
+            pointStrokeColor: "#ff6600",
+            pointHighlightFill: "#000",
             pointHighlightStroke: "rgba(220,220,220,1)",
-				data: [81,81,71,67,59,69]
+				data: [81,8,7,6,439,169]
 			}
 		]
 	};
 
 	window.onload = function(){
 		window.myRadar = new Chart(document.getElementById("canvas").getContext("2d")).Radar(radarChartData, {
-			responsive: false,
+			responsive: true,
 			scaleLineColor: "#fff",
 			angleLineColor: "#fff",
-			showTooltips: false
+			showTooltips: false,
+			    pointLabelFontFamily : "'Arial'",
+			    //String - Point label font weight
+			    pointLabelFontStyle : "normal",
+			    //Number - Point label font size in pixels
+			    pointLabelFontSize : 15,
+			    //String - Point label font colour
+			    pointLabelFontColor : "#fff"
 		});
 	}
 
