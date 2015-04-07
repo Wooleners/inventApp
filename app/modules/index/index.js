@@ -1,5 +1,3 @@
-
-
 /****************************************************************
  * 		 main modules
  * 		 @by   wooleners
@@ -15,11 +13,10 @@
 		mode: 'horizontal',
 		direction: 'vertical',
 		followFinger: false,
-		onSlideChangeEnd: function(sw){
-			$("#header").toggleClass("header");
-			$("#footer").toggleClass("footer");
-			//etc..
-		}
+		resistance: "100%",
+		slidesPerView: "auto",
+		moveStartThreshold: 80,
+		speed: 1e3
 	});
 
 	var radarChartData = {
@@ -41,9 +38,10 @@
 
 	window.onload = function(){
 		window.myRadar = new Chart(document.getElementById("canvas").getContext("2d")).Radar(radarChartData, {
-			responsive: true,
+			responsive: false,
 			scaleLineColor: "#fff",
 			angleLineColor: "#fff",
+			showTooltips: false
 		});
 	}
 
