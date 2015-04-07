@@ -1,0 +1,31 @@
+@keyframes followSlideToRight {
+  from{
+    opacity: 0;
+    transform: translate3D(-320px, 0, 0);
+  }
+  to{
+    opacity: 1;
+    transform: translate3D(0, 0, 0);
+  }
+}
+
+@keyframes shake {
+  0%{
+    transform: rotateZ(-5deg);
+  }
+  50%{
+    transform: rotateZ(0deg);
+  }
+  100%{
+    transform: rotateZ(5deg);
+  }
+}
+
+.followSlideToRight(@dur: 1.2s, @tim: ease, @delay: 0s, @i_count: 1, @dir: normal){
+  animation: followSlideToRight @dur @tim @delay @i_count @dir both;
+  animation-play-state: running;
+}
+.shake(@dur: .2s, @tim: ease, @delay: 0s, @i_count: infinite, @dir: alternate){
+  animation: shake @dur @tim @delay @i_count @dir both;
+  animation-play-state: running;
+}

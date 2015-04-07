@@ -1,44 +1,291 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <!-- UC Browser FullScreen -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ Browser FullScreen -->
+    <meta name="x5-fullscreen" content="true">
     <title>数据盛典</title>
     <!-- build:cssLib -->
     <!-- endbuild -->
     <!-- build:cssApp -->
     <!-- endbuild -->
-  </head>
-  <body>
-    <div class="loading">
-      <div id="spinner"></div>
+</head>
+<body>
+<div class="loading">
+    <div id="spinner"></div>
+</div>
+<div class="swiper-container" id="pages">
+    <div class="swiper-wrapper">
+        <!--page0-->
+        <section class="swiper-slide">
+            <div class="p0_top"><img src="/app/images/p1_2.png" alt=""/></div>
+            <div class="p0_cont"><img src="/app/images/p1_1.png" alt=""/></div>
+        </section>
+        <!--page1-->
+        <section class="swiper-slide">
+            <div id="header" class="topWord">
+                2014年<br/>
+                金融旗舰店共上线了<span class="fs30 cl_ff6600">1710</span>支产品<br/>
+                涵盖保险、理财、投资、基金、贷款······
+            </div>
+            <div class="content">
+                <canvas id="canvas" width="100%" height="100%"></canvas>
+            </div>
+            <div class="fotWord">
+                平均每天就上线<span class="p1_tip">5</span>款产品<br>
+                想想产品经理们也是蛮拼得<br>
+            </div>
+        </section>
+        <!--page2-->
+        <section class="swiper-slide">
+            <div class="topWord">金融旗舰店有 <span class="fs30 cl_ff6600">75000</span>名用户<br>
+                <p class="fs12">他们主要集中出没在</p>
+                <span class="fs15 cl_ffc000">北京、上海、广州、深圳、杭州</span><span class="fs12">等城市</span>
+            </div>
+            <div class="content"></div>
+        </section>
+        <!--page3-->
+        <section class="swiper-slide">
+            <div class="topWord">
+                2014年金融旗舰店累计订单<br>
+                <span class="fs30 cl_ff6600">32.65</span>万笔
+            </div>
+            <div class="content"></div>
+            <div class="fotWord">
+                平均每人下<span class="p1_tip">4</span>笔订单
+            </div>
+        </section>
+        <!--page4-->
+        <section class="swiper-slide">
+            <div class="topWord">
+                金融旗舰店购买理财产品的用户中<br>
+                <p class="mt10"><span class="fs30 cl_ff6600">近60%是女性</span>万笔</p>
+            </div>
+            <div class="content"></div>
+            <div class="fotWord">
+                男人征服世界，女人征服男人
+                <p class="fs20 mt10 cl_ff6600">然  后  管  钱</p>
+            </div>
+        </section>
+        <!--page5-->
+        <section class="swiper-slide">
+            <div class="topWord">
+                而60%的女性中<br>
+                <p class="mt10 fs30 cl_ff6600">多为40岁以上的</p>
+                <p class="mt10 fs30 cl_ff6600">中国大妈</p>
+            </div>
+            <div class="content"></div>
+        </section>
+        <!--page6-->
+        <section class="swiper-slide">
+            <div class="topWord">
+                一位<span class="fs30 cl_ff6600">49岁</span>的大妈<br>
+                <p class="mt10">2014年购买了<span class="fs30 cl_ff6600">20笔</span>理财</p>
+                <p class="mt10">妥妥滴人生赢家啊！</p>
+            </div>
+            <div class="content p6_cont">
+                <img class="imgTop" src="/app/images/p6_1.png" alt=""/>
+                <img class="imgBot" src="/app/images/p6_2.png" alt=""/>
+            </div>
+        </section>
+        <!--page7-->
+        <section class="swiper-slide">
+            <div class="topWord">
+                为了保证数据的科学性，我又分析了<br>
+                用户们的星座，然后有了新的发现……
+            </div>
+        </section>
+        <!--page8-->
+        <section class="swiper-slide">
+            <div class="topWord">
+                <p class="fs20 fw_b"><span class="cl_ffd200">最土豪</span>的理财达人</p>
+                <p class="mt10">有位用户一次性购买了</p>
+                <p class="fs20 cl_ff6600">1220万理财产品</p>
+                <p class="fs12">简直有（sang）钱（xin）任（bing）性（kuang）！</p>
+            </div>
+            <div class="content p8_cont">
+                <img class="bubble" src="/app/images/p8_3.png" alt=""/>
+                <img class="perLeft" src="/app/images/p8_1.png" alt=""/>
+                <img class="perRight" src="/app/images/p8_2.png" alt=""/>
+            </div>
+            <div class="fotWord">
+                “ 你好，能和我们交流一下你的想法吗 ？”
+                <p class="cl_ff6600">“ …… 我就是一冲动！”</p>
+            </div>
+        </section>
+        <!--page9-->
+        <section class="swiper-slide">
+            <div class="topWord">
+                <p class="fs20 fw_b"><span class="cl_ffd200">最任性</span>的理财达人</p>
+                <p class="mt10">更令人吃惊的是<br>还有位财主2014年在金融旗舰店买了</p>
+                <p class="fs12"><span class="fs20 cl_ff6600">11次，</span>总成交额达到<span class="fs20 cl_ff6600">2379万</span></p>
+            </div>
+            <div class="content p9_cont">
+                <img class="bubble" src="/app/images/p9_1.png" alt=""/>
+                <img class="perLeft" src="/app/images/p9_3.png" alt=""/>
+                <img class="perRight" src="/app/images/p9_2.png" alt=""/>
+            </div>
+            <div class="fotWord">
+                “ 你好，能分我一个零头吗 ？”
+                <p class="cl_ff6600">“ 不好意思，我金牛座的 ！”</p>
+            </div>
+        </section>
+        <!--page10-->
+        <section class="swiper-slide">
+            <div class="topWord">
+                <p class="fs20 fw_b"><span class="cl_ffd200">最年轻</span>的理财达人</p>
+                <p class="mt10">一位年轻的高富帅</p>
+                <p>年仅<span class="fs20 cl_ff6600">18岁</span>已经购买了<span class="fs20 cl_ff6600">130万</span>理财产品</p>
+            </div>
+            <div class="content p10_cont">
+                <img class="perLeft" src="/app/images/p10_1.png" alt=""/>
+                <img class="perRight" src="/app/images/p10_2.png" alt=""/>
+            </div>
+        </section>
+        <!--page11-->
+        <section class="swiper-slide">
+            <div class="topWord">
+                <p class="fs20 fw_b"><span class="cl_ffd200">最年长</span>的理财达人</p>
+                <p class="mt10">最后是一位老爷爷的故事</p>
+                <p>一位<span class="fs20 cl_ff6600">91岁高龄</span>的金融旗舰店理财用户</p>
+            </div>
+            <div class="content p11_cont">
+                <img class="bubble" src="/app/images/p11_2.png" alt=""/>
+                <img class="perLeft" src="/app/images/p11_1.png" alt=""/>
+                <div class="text">
+                    <p class="fs20 cl_ff6600">时髦潮流爷爷酱</p>
+                    <p class="mt10 fs12">性别：男<br>
+                        年龄：91岁<br>
+                        金额：6,000,000元</p>
+                    <p class="fs15 cl_ff6600">座右铭<br>
+                        生命不息 理财不止</p>
+                </div>
+            </div>
+        </section>
+        <!--page12-->
+        <section class="swiper-slide">
+            <div class="topWord">
+                <p class="">金融旗舰店购买保险的用户中<span class="fs20 cl_ff6600">男性居多</span></p>
+                <p class="mt10">年龄主要分布在<span class="fs30 cl_ff6600">30-39岁</span></p>
+            </div>
+            <div class="content p12_cont">
+                <div class="cont_l">
+                    <img class="bubble" src="/app/images/p12_1.png" alt=""/>
+                    <img class="per" src="/app/images/p12_3.png" alt=""/>
+                    <p class="fs15">男人买保险说明<br>
+                        有担当有责任感<br>
+                        好男人就是我</p>
+                </div>
+                <div class="cont_r">
+                    <img class="bubble" src="/app/images/p12_2.png" alt=""/>
+                    <img class="per" src="/app/images/p12_4.png" alt=""/>
+                    <p class="fs15 cl_ff6600">买完理财<br>
+                        钱没用完<br>
+                        顺便买点</p>
+                </div>
+            </div>
+        </section>
+        <!--page13-->
+        <section class="swiper-slide">
+            <div class="topWord">
+                <p class="">从保险产品购买比重来看<br>
+                    我们发现了用户们的<br>
+                    用 <span class="cl_ff6600">(qiān)</span> 心 <span class="cl_ff6600">(qí)</span> 良 <span class="cl_ff6600">(bǎi)</span> 苦 <span class="cl_ff6600">(guài)</span></p>
+            </div>
+
+        </section>
+        <!--page14-->
+        <section class="swiper-slide">
+            <div class="topWord">
+                <p>以上六类保险中<br>
+                    每一类购买率 TOP 3 的是<span class="fs30 cl_ffd200">天蝎座</span><br>
+                    其中有一位天蝎座总共购买了</p>
+                <p class="cl_ff6600" style="font-size: 0.25rem;">119笔意外险18笔旅游险</p>
+            </div>
+            <div class="content p14_cont">
+                <img class="per" src="/app/images/p14_1.png" alt=""/>
+            </div>
+            <div class="fotWord">
+                都说天蝎座腹黑<br>
+                我觉得每种保险都买一份<br>
+                心里比较踏实<br>
+                ……<br>
+                而且我有强迫症
+            </div>
+        </section>
+        <!--page15-->
+        <section class="swiper-slide">
+            <div class="topWord">
+                <p>我们还发现了一位奇葩用户<br>
+                    在金融旗舰店购买了</p>
+                <p class="cl_ff6600" style="font-size: 0.25rem;">152笔短期交通意外险</p>
+            </div>
+            <div class="content p15_cont">
+                <img class="bubble" src="/app/images/p15_1.png" alt=""/>
+            </div>
+            <div class="fotWord">
+                坐公交车兜风神马的最爱了
+            </div>
+        </section>
+        <!--page16-->
+        <section class="swiper-slide">
+            <div class="topWord">
+                <p>2014年总共有<span class="cl_ff6600" style="font-size: 0.25rem">51327人</span></p>
+                <p>在金融旗舰店申请贷款</p>
+                <p>总贷款金额<span class="cl_ff6600" style="font-size: 0.25rem">9570万</span></p>
+            </div>
+            <div class="content p16_cont">
+                <div class="cont_l">
+                    <img class="bubble" src="/app/images/p16_1.png" alt=""/>
+                    <img class="per" src="/app/images/p16_3.png" alt=""/>
+                </div>
+                <div class="cont_r">
+                    <img class="bubble" src="/app/images/p16_2.png" alt=""/>
+                    <img class="per" src="/app/images/p16_4.png" alt=""/>
+                </div>
+            </div>
+            <div class="fotWord">
+                人生总有些时候<br>
+                <span class="cl_ff6600">为钱烦恼</span>
+            </div>
+        </section>
+        <!--page17-->
+        <section class="swiper-slide">
+            <div class="topWord">
+                <p>2014年总共有<span class="cl_ff6600" style="font-size: 0.25rem">552人</span></p>
+                <p>在金融旗舰店大额投资</p>
+                <p>年累计成交<span class="cl_ff6600" style="font-size: 0.25rem">1.2亿</span></p>
+            </div>
+            <div class="content p17_cont">
+                <div class="cont_l">
+                    <img class="bubble" src="/app/images/p17_1.png" alt=""/>
+                    <img class="per" src="/app/images/p17_2.png" alt=""/>
+                </div>
+                <div class="cont_r">
+                    <img class="bubble" src="/app/images/p17_4.png" alt=""/>
+                    <img class="per" src="/app/images/p17_3.png" alt=""/>
+                </div>
+            </div>
+            <div class="fotWord fs20 cl_ff6600">
+                土豪就要买买买<br>
+                有钱就是要任性
+            </div>
+        </section>
+
     </div>
-    <div class="swiper-container" id="pages">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div id="header" class="header">
-            2014年<br/>
-            金融旗舰店共上线了<i class="tips">1710</i>支产品<br/>
-            涵盖保险、理财、投资、基金、贷款······
-          </div>
-          <div class="content">
-            <canvas id="canvas" width="100%" height="100%"></canvas>
-          </div>
-          <div class="footer" id="footer">
-            平均每天就上线5款产品<br>
-            想想产品经理们也是蛮拼得<br>
-          </div>
-        </div>
-        <div id="footer" class="swiper-slide">
-          <div>123456</div>
-        </div>
-      </div>
-    </div>
-    <!-- build:jsLib -->
-    <!-- endbuild -->
-    <!-- build:jsApp -->
-    <!-- endbuild -->
-  </body>
+</div>
+<div class="logo" style="z-index: 2147483647;"><img src="/app/images/logo.png" alt=""/></div>
+<div class="person" style="z-index: 2147483647;"><span></span><span>手酸戳我</span></div>
+<!-- build:jsLib -->
+<!-- endbuild -->
+<!-- build:jsApp -->
+<!-- endbuild -->
+</body>
 </html>
