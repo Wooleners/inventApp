@@ -96,7 +96,7 @@ nav,
 section {
   display: block;
 }
-nav ul {
+nav ul li {
   list-style: none;
 }
 blockquote,
@@ -174,9 +174,72 @@ html {
   .topWord {
     margin-bottom: 0rem;
   }
-  .swiper-slide-active .content {
-    height: 230px !important;
-    line-height: 230px !important;
+  .top1 {
+    margin-bottom: 0px !important;
+  }
+  .ps,
+  .oval,
+  .bt,
+  .solid,
+  .swiper-slide .content .solid_tits li {
+    width: 40px !important;
+  }
+  .conta,
+  .solid_tits {
+    width: 260px !important;
+  }
+  .swiper-slide .content1 {
+    height: 220px !important;
+  }
+  .swiper-slide-active .ps1 {
+    -webkit-animation: psBottomAdd11 1s .8s ease both !important;
+  }
+  .swiper-slide-active .ps2 {
+    -webkit-animation: psBottomAdd22 1s .8s ease both !important;
+  }
+  .swiper-slide-active .ps3 {
+    -webkit-animation: psBottomAdd33 1s .8s ease both !important;
+  }
+  .swiper-slide-active .ps4 {
+    -webkit-animation: psBottomAdd44 1s .8s ease both !important;
+  }
+  .solid,
+  .conta {
+    height: 250px !important;
+  }
+  .conta {
+    width: 320px !important;
+  }
+}
+@media screen and (max-height: 569px) {
+  .topWord {
+    margin-bottom: 0rem;
+  }
+  .top1 {
+    margin-bottom: 0px !important;
+  }
+  .ps,
+  .oval,
+  .bt,
+  .solid,
+  .swiper-slide .content .solid_tits li {
+    width: 40px !important;
+  }
+  .conta,
+  .solid_tits {
+    width: 260px !important;
+  }
+  .swiper-slide-active .ps1 {
+    -webkit-animation: psBottomAdd11 1s .8s ease both !important;
+  }
+  .swiper-slide-active .ps2 {
+    -webkit-animation: psBottomAdd22 1s .8s ease both !important;
+  }
+  .swiper-slide-active .ps3 {
+    -webkit-animation: psBottomAdd33 1s .8s ease both !important;
+  }
+  .swiper-slide-active .ps4 {
+    -webkit-animation: psBottomAdd44 1s .8s ease both !important;
   }
 }
 body {
@@ -217,10 +280,33 @@ body {
 }
 .swiper-slide .content {
   width: 100%;
-  height: 300px;
+  height: 330px;
   text-align: center;
-  line-height: 300px;
+  line-height: 330px;
   vertical-align: middle;
+}
+.swiper-slide .content .conta {
+  width: 360px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.swiper-slide .content .solid_tits {
+  width: 360px;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 auto;
+}
+.swiper-slide .content .solid_tits li {
+  float: left;
+  list-style-type: none;
+  width: 60px;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 15px;
+}
+.swiper-slide .content .solid_tits li:last-child {
+  margin-right: 0px;
 }
 .swiper-slide .footer {
   font-size: 21px;
@@ -616,6 +702,82 @@ body {
 .swiper-slide-active .imgTop {
   -webkit-animation: bounce 1s .2s ease both;
 }
+.conta {
+  text-align: center;
+}
+.solid {
+  width: 60px;
+  height: 300px;
+  position: relative;
+  float: left;
+  margin-right: 15px;
+}
+.solid:last-child {
+  margin-right: 0px;
+}
+.ps {
+  position: absolute;
+  bottom: 15px;
+  left: 0px;
+  z-index: 1000;
+}
+.oval {
+  z-index: 999;
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background-color: #c53f08;
+  border-radius: 50%;
+  bottom: 0px;
+  left: 0px;
+}
+.bt {
+  z-index: 998;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: #fc4e0a;
+  width: 60px;
+  height: 15px;
+  border-bottom-right-radius: 30px 18px;
+  border-bottom-left-radius: 30px 18px;
+}
+.swiper-slide-active .ps1 {
+  -webkit-animation: psBottomAdd1 1s .8s ease both;
+}
+.swiper-slide-active .ps2 {
+  -webkit-animation: psBottomAdd2 1s .8s ease both;
+}
+.swiper-slide-active .ps3 {
+  -webkit-animation: psBottomAdd3 1s .8s ease both;
+}
+.swiper-slide-active .ps4 {
+  -webkit-animation: psBottomAdd4 1s .8s ease both;
+}
+.swiper-slide-active .oval1 {
+  -webkit-animation: bottomAdd1 1s .8s ease both;
+}
+.swiper-slide-active .oval2 {
+  -webkit-animation: bottomAdd2 1s .8s ease both;
+}
+.swiper-slide-active .oval3 {
+  -webkit-animation: bottomAdd3 1s .8s ease both;
+}
+.swiper-slide-active .oval4 {
+  -webkit-animation: bottomAdd4 1s .8s ease both;
+}
+.swiper-slide-active .bt1 {
+  -webkit-animation: heightAdd 1s .8s ease both;
+}
+.swiper-slide-active .bt2 {
+  -webkit-animation: heightAdd1 1s .8s ease both;
+}
+.swiper-slide-active .bt3 {
+  -webkit-animation: heightAdd2 1s .8s ease both;
+}
+.swiper-slide-active .bt4 {
+  -webkit-animation: heightAdd3 1s .8s ease both;
+}
 /********************** animate *******************/
 @-webkit-keyframes followSlideToRight {
   from {
@@ -639,6 +801,262 @@ body {
     opacity: 1;
     -webkit-transform: translate3D(0, 0, 0);
             transform: translate3D(0, 0, 0);
+  }
+}
+@-webkit-keyframes heightAdd {
+  from {
+    height: 15px;
+  }
+  to {
+    height: 140px;
+  }
+}
+@keyframes heightAdd {
+  from {
+    height: 15px;
+  }
+  to {
+    height: 140px;
+  }
+}
+@-webkit-keyframes heightAdd1 {
+  from {
+    height: 15px;
+  }
+  to {
+    height: 80px;
+  }
+}
+@keyframes heightAdd1 {
+  from {
+    height: 15px;
+  }
+  to {
+    height: 80px;
+  }
+}
+@-webkit-keyframes heightAdd2 {
+  from {
+    height: 15px;
+  }
+  to {
+    height: 70px;
+  }
+}
+@keyframes heightAdd2 {
+  from {
+    height: 15px;
+  }
+  to {
+    height: 70px;
+  }
+}
+@-webkit-keyframes heightAdd3 {
+  from {
+    height: 15px;
+  }
+  to {
+    height: 40px;
+  }
+}
+@keyframes heightAdd3 {
+  from {
+    height: 15px;
+  }
+  to {
+    height: 40px;
+  }
+}
+@-webkit-keyframes psBottomAdd1 {
+  from {
+    bottom: 15px;
+  }
+  to {
+    bottom: 140px;
+  }
+}
+@keyframes psBottomAdd1 {
+  from {
+    bottom: 15px;
+  }
+  to {
+    bottom: 140px;
+  }
+}
+@-webkit-keyframes psBottomAdd11 {
+  from {
+    bottom: 15px;
+  }
+  to {
+    bottom: 120px;
+  }
+}
+@keyframes psBottomAdd11 {
+  from {
+    bottom: 15px;
+  }
+  to {
+    bottom: 120px;
+  }
+}
+@-webkit-keyframes psBottomAdd2 {
+  from {
+    bottom: 15px;
+  }
+  to {
+    bottom: 80px;
+  }
+}
+@keyframes psBottomAdd2 {
+  from {
+    bottom: 15px;
+  }
+  to {
+    bottom: 80px;
+  }
+}
+@-webkit-keyframes psBottomAdd22 {
+  from {
+    bottom: 15px;
+  }
+  to {
+    bottom: 60px;
+  }
+}
+@keyframes psBottomAdd22 {
+  from {
+    bottom: 15px;
+  }
+  to {
+    bottom: 60px;
+  }
+}
+@-webkit-keyframes psBottomAdd3 {
+  from {
+    bottom: 15px;
+  }
+  to {
+    bottom: 70px;
+  }
+}
+@keyframes psBottomAdd3 {
+  from {
+    bottom: 15px;
+  }
+  to {
+    bottom: 70px;
+  }
+}
+@-webkit-keyframes psBottomAdd33 {
+  from {
+    bottom: 15px;
+  }
+  to {
+    bottom: 50px;
+  }
+}
+@keyframes psBottomAdd33 {
+  from {
+    bottom: 15px;
+  }
+  to {
+    bottom: 50px;
+  }
+}
+@-webkit-keyframes psBottomAdd4 {
+  from {
+    bottom: 15px;
+  }
+  to {
+    bottom: 40px;
+  }
+}
+@keyframes psBottomAdd4 {
+  from {
+    bottom: 15px;
+  }
+  to {
+    bottom: 40px;
+  }
+}
+@-webkit-keyframes psBottomAdd44 {
+  from {
+    bottom: 15px;
+  }
+  to {
+    bottom: 20px;
+  }
+}
+@keyframes psBottomAdd44 {
+  from {
+    bottom: 15px;
+  }
+  to {
+    bottom: 20px;
+  }
+}
+@-webkit-keyframes bottomAdd1 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 125px;
+  }
+}
+@keyframes bottomAdd1 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 125px;
+  }
+}
+@-webkit-keyframes bottomAdd2 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 65px;
+  }
+}
+@keyframes bottomAdd2 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 65px;
+  }
+}
+@-webkit-keyframes bottomAdd3 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 55px;
+  }
+}
+@keyframes bottomAdd3 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 55px;
+  }
+}
+@-webkit-keyframes bottomAdd4 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 25px;
+  }
+}
+@keyframes bottomAdd4 {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 25px;
   }
 }
 @-webkit-keyframes bounceInUp {
