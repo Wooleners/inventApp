@@ -723,7 +723,46 @@ body {
   -webkit-animation:heightAdd3 1s .8s ease both;
 }
 
+.bklist{
+  width: 360px;
+  margin: 0 auto;
+  height: 120px;
+}
+.stp{
+  width: 100%;
+  height: 200px;
+}
+.stp img{
+  width: 80px;
+  margin: 0 auto;
+}
+.bk{
+  float: left;
+  width: 80px;
+  height: 100px;
+  position: relative;
+  margin-right: 10px;
+}
+.bk svg{
+  position: absolute;
+  left:0px;
+  top:0px;
+}
+
+.swiper-slide-active .bk1{
+  -webkit-animation:bkshow 2s .8s ease both;
+}
+
 /********************** animate *******************/
+
+@keyframes bkshow{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
 
 @keyframes followSlideToRight {
   from{
