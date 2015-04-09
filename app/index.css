@@ -815,6 +815,37 @@ body {
 .swiper-slide-active .bk4 {
   -webkit-animation: bkshow 7s 1s ease both;
 }
+#canvas-holder-warp {
+  position: absolute;
+}
+#canvas-holder-outer {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+#canvas-holder-inner {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.canvas-pie {
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+  height: 100%;
+  text-align: center;
+  line-height: 100%;
+  vertical-align: middle;
+}
+.store_icon {
+  position: absolute;
+  top: 75px;
+  left: 75px;
+}
+.store_icon img {
+  width: 50px;
+  height: 50px;
+}
 /********************** animate *******************/
 @-webkit-keyframes bkshow {
   from {
