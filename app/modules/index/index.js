@@ -85,19 +85,22 @@
 	];
 
 	function callPie() {
+		if(!!window.myDoughnut){
+			return;
+		}
 		var ctx = document.getElementById("chart-area-wrap").getContext("2d"),
 			ctx2 = document.getElementById("chart-area-outer").getContext("2d"),
 			ctx3 = document.getElementById("chart-area-inner").getContext("2d");
 		window.myDoughnut = new Chart(ctx).Doughnut(doughnutData, {
 			responsive: false,
-			percentageInnerCutout: 70,
+			percentageInnerCutout: 75,
 			segmentStrokeColor: "rgba(0,0,0,0)",
 			showTooltips: false
 		});
 		window.myDoughnut2 = new Chart(ctx2).Doughnut(doughnutData2, {
 			responsive: false,
 			segmentStrokeColor: "rgba(0,0,0,0)",
-			percentageInnerCutout: 80,
+			percentageInnerCutout: 75,
 			showTooltips: false
 		});
 		window.myDoughnut3 = new Chart(ctx3).Pie(doughnutData3, {
