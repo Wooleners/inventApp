@@ -1096,6 +1096,40 @@ body {
   height:60px;
   line-height: 20px;
 }
+.p13_list{
+  width: 280px;
+  height: 100%;
+  margin: 0 auto;
+}
+.p13_solid{
+  float: left;
+  background-image: linear-gradient(#464646 85%, #000 10%, transparent);
+  width: 100%;
+  height:35px;
+  margin-top: 5px;
+}
+.bob{
+  background-image: linear-gradient(#ff6600 85%, #fe0000 10%, transparent);
+  width: 0%;
+  height: 35px;
+  position: relative;
+}
+.bob_text{
+  position: absolute;
+  height: 35px;
+  width: 180px;
+  left:105%;
+}
+.bob_text span{
+  display: block;
+  height:15px;
+  line-height: 15px;
+  font-size: 10px;
+  text-align: left;
+}
+.bob_text .bob_top{
+  color: #ffb200;
+}
 .p9 .p8 .p8_male{
   background-image: url("/app/images/p9_3.png");
   background-position: 100% 100%;
@@ -1163,8 +1197,94 @@ body {
 .swiper-slide-active .p5_5 .p5_text{
   animation:p5Ta5 1s 1s ease both;
 }
+.swiper-slide-active .p13_1{
+  animation: p13_1 1s 1s ease both;
+}
+.swiper-slide-active .p13_2{
+  animation: p13_2 1s 1s ease both;
+}
+.swiper-slide-active .p13_3{
+  animation: p13_3 1s 1s ease both;
+}
+.swiper-slide-active .p13_4{
+  animation: p13_4 1s 1s ease both;
+}
+.swiper-slide-active .p13_5{
+  animation: p13_5 1s 1s ease both;
+}
+.swiper-slide-active .p13_6{
+  animation: p13_6 1s 1s ease both;
+}
+.swiper-slide-active .per{
+  animation: wobble 1s 1s ease both;
+}
 /********************** animate *******************/
-
+@-webkit-keyframes wobble{
+0%{-webkit-transform:translateX(0%)}
+15%{-webkit-transform:translateX(-25%) rotate(-5deg)}
+30%{-webkit-transform:translateX(20%) rotate(3deg)}
+45%{-webkit-transform:translateX(-15%) rotate(-3deg)}
+60%{-webkit-transform:translateX(10%) rotate(2deg)}
+75%{-webkit-transform:translateX(-5%) rotate(-1deg)}
+100%{-webkit-transform:translateX(0%)}
+}
+@-moz-keyframes wobble{
+0%{-moz-transform:translateX(0%)}
+15%{-moz-transform:translateX(-25%) rotate(-5deg)}
+30%{-moz-transform:translateX(20%) rotate(3deg)}
+45%{-moz-transform:translateX(-15%) rotate(-3deg)}
+60%{-moz-transform:translateX(10%) rotate(2deg)}
+75%{-moz-transform:translateX(-5%) rotate(-1deg)}
+100%{-moz-transform:translateX(0%)}
+}
+@keyframes p13_1{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 49%;
+  }
+}
+@keyframes p13_2{
+  from{
+    width:0%;
+  }
+  to{
+    width: 37%;
+  }
+}
+@keyframes p13_3{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 6%;
+  }
+}
+@keyframes p13_4{
+  from{
+    width:0%;
+  }
+  to{
+    width: 5%;
+  }
+}
+@keyframes p13_5{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 2%;
+  }
+}
+@keyframes p13_6{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 1%;
+  }
+}
 @keyframes flash{
 
     0%,100%,50% {
