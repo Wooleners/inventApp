@@ -859,7 +859,19 @@ body {
   height: 100%;
 }
 .talks .male .male_dialog {
+  width: 100%;
+  height: 100px;
   background-image: url("/app/images/p4_4.png");
+  background-repeat: no-repeat;
+  background-position: 0px 35px;
+  background-size: 80%;
+}
+.talks .male .male_solid {
+  width: 100%;
+  height: 100px;
+  background-image: url("/app/images/p4_1.png");
+  background-repeat: no-repeat;
+  background-position: 40px 0px;
 }
 .talks .female {
   position: absolute;
@@ -867,6 +879,21 @@ body {
   bottom: 0px;
   width: 80px;
   height: 100%;
+}
+.talks .female .female_dialog {
+  width: 100%;
+  height: 100px;
+  background-image: url("/app/images/p4_5.png");
+  background-repeat: no-repeat;
+  background-position: 14px 35px;
+  background-size: 80%;
+}
+.talks .female .female_solid {
+  width: 100%;
+  height: 100px;
+  background-image: url("/app/images/p4_2.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
 }
 /********************** animate *******************/
 @-webkit-keyframes bkshow {
