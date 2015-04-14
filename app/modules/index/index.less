@@ -88,11 +88,11 @@ html{
     font-size: 100px;
 }
 /* iphone 6 */
-@media (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-min-device-pixel-ratio : 2){
+@media (min-device-width : 375px) and (max-device-width : 667px) and (min-device-pixel-ratio : 2){
     html{font-size: 117.1875px;}
 }
 /* iphone6 plus */
-@media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3){
+@media (min-device-width : 414px) and (max-device-width : 736px) and (min-device-pixel-ratio : 3){
     html{font-size: 129.375px;}
 }
 @media screen and (max-height:480px){
@@ -113,16 +113,16 @@ html{
   }
 
   .swiper-slide-active .ps1{
-    -webkit-animation:psBottomAdd11 1s .8s ease both !important;
+    animation:psBottomAdd11 1s .8s ease both !important;
   }
   .swiper-slide-active .ps2{
-    -webkit-animation:psBottomAdd22 1s .8s ease both !important;
+    animation:psBottomAdd22 1s .8s ease both !important;
   }
   .swiper-slide-active .ps3{
-    -webkit-animation:psBottomAdd33 1s .8s ease both !important;
+    animation:psBottomAdd33 1s .8s ease both !important;
   }
   .swiper-slide-active .ps4{
-    -webkit-animation:psBottomAdd44 1s .8s ease both !important;
+    animation:psBottomAdd44 1s .8s ease both !important;
   }
   .solid, .conta{
     height: 250px !important;
@@ -145,16 +145,16 @@ html{
     width: 260px !important;
   }
   .swiper-slide-active .ps1{
-    -webkit-animation:psBottomAdd11 1s .8s ease both !important;
+    animation:psBottomAdd11 1s .8s ease both !important;
   }
   .swiper-slide-active .ps2{
-    -webkit-animation:psBottomAdd22 1s .8s ease both !important;
+    animation:psBottomAdd22 1s .8s ease both !important;
   }
   .swiper-slide-active .ps3{
-    -webkit-animation:psBottomAdd33 1s .8s ease both !important;
+    animation:psBottomAdd33 1s .8s ease both !important;
   }
   .swiper-slide-active .ps4{
-    -webkit-animation:psBottomAdd44 1s .8s ease both !important;
+    animation:psBottomAdd44 1s .8s ease both !important;
   }
 }
 body {
@@ -166,7 +166,7 @@ body {
     background: #333 url("/app/images/bg.jpg") no-repeat;
     background-size: cover;
     -moz-user-select: none;
-    -webkit-user-select: none;
+    user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
@@ -228,6 +228,7 @@ body {
   height: 20px;
   line-height: 20px;
   margin-right: 15px;
+  font-size: 15px;
 }
 
 .swiper-slide .content .solid_tits li:last-child{
@@ -242,14 +243,14 @@ body {
 
 //.header{
 //    display: block;
-//-webkit-animation:bounceInLeft 2s .2s ease both;
+//animation:bounceInLeft 2s .2s ease both;
 //-moz-animation:bounceInLeft 2s .2s ease both;}
-//@-webkit-keyframes bounceInLeft{
+//@keyframes bounceInLeft{
 //0%{opacity:0;
-//-webkit-transform:translateX(-2000px)}
+//transform:translateX(-2000px)}
 //60%{opacity:1;
-//-webkit-transform:translateX(30px)}
-//100%{-webkit-transform:translateX(0)}
+//transform:translateX(30px)}
+//100%{transform:translateX(0)}
 //}
 //@-moz-keyframes bounceInLeft{
 //0%{opacity:0;
@@ -261,14 +262,14 @@ body {
 //
 //.footer{
 //    display: block;
-//-webkit-animation:bounceInUp 3s .2s ease both;
+//animation:bounceInUp 3s .2s ease both;
 //-moz-animation:bounceInUp 3s .2s ease both;}
-//@-webkit-keyframes bounceInUp{
+//@keyframes bounceInUp{
 //0%{opacity:0;
-//-webkit-transform:translateY(-10px)}
+//transform:translateY(-10px)}
 //60%{opacity:1;
-//-webkit-transform:translateY(-30px)}
-//100%{-webkit-transform:translateY(0)}
+//transform:translateY(-30px)}
+//100%{transform:translateY(0)}
 //}
 //@-moz-keyframes bounceInUp{
 //0%{opacity:0;
@@ -635,7 +636,7 @@ body {
 }
 
 .swiper-slide-active .imgTop{
-  -webkit-animation:bounce 1s .2s ease both;
+  animation:bounce 1s .2s ease both;
 }
 .conta{
   text-align: center;
@@ -682,45 +683,45 @@ body {
 }
 
 .swiper-slide-active .ps1{
-  -webkit-animation:psBottomAdd1 1s .8s ease both;
+  animation:psBottomAdd1 1s .8s ease both;
 }
 .swiper-slide-active .ps2{
-  -webkit-animation:psBottomAdd2 1s .8s ease both;
+  animation:psBottomAdd2 1s .8s ease both;
 }
 .swiper-slide-active .ps3{
-  -webkit-animation:psBottomAdd3 1s .8s ease both;
+  animation:psBottomAdd3 1s .8s ease both;
 }
 .swiper-slide-active .ps4{
-  -webkit-animation:psBottomAdd4 1s .8s ease both;
+  animation:psBottomAdd4 1s .8s ease both;
 }
 
 .swiper-slide-active .oval1{
-  -webkit-animation:bottomAdd1 1s .8s ease both;
+  animation:bottomAdd1 1s .8s ease both;
 }
 .swiper-slide-active .oval2{
-  -webkit-animation:bottomAdd2 1s .8s ease both;
+  animation:bottomAdd2 1s .8s ease both;
 }
 .swiper-slide-active .oval3{
-  -webkit-animation:bottomAdd3 1s .8s ease both;
+  animation:bottomAdd3 1s .8s ease both;
 }
 .swiper-slide-active .oval4{
-  -webkit-animation:bottomAdd4 1s .8s ease both;
+  animation:bottomAdd4 1s .8s ease both;
 }
 
 .swiper-slide-active .bt1{
-  -webkit-animation:heightAdd 1s .8s ease both;
+  animation:heightAdd 1s .8s ease both;
 }
 
 .swiper-slide-active .bt2{
-  -webkit-animation:heightAdd1 1s .8s ease both;
+  animation:heightAdd1 1s .8s ease both;
 }
 
 .swiper-slide-active .bt3{
-  -webkit-animation:heightAdd2 1s .8s ease both;
+  animation:heightAdd2 1s .8s ease both;
 }
 
 .swiper-slide-active .bt4{
-  -webkit-animation:heightAdd3 1s .8s ease both;
+  animation:heightAdd3 1s .8s ease both;
 }
 
 .bklist{
@@ -750,18 +751,18 @@ body {
 }
 
 .swiper-slide-active .bk1{
-  -webkit-animation:bkshow 1s 1s ease both;
+  animation:bkshow 1s 1s ease both;
 }
 .swiper-slide-active .bk2{
-  -webkit-animation:bkshow 3s 1s ease both;
+  animation:bkshow 3s 1s ease both;
 }
 
 .swiper-slide-active .bk3{
-  -webkit-animation:bkshow 5s 1s ease both;
+  animation:bkshow 5s 1s ease both;
 }
 
 .swiper-slide-active .bk4{
-  -webkit-animation:bkshow 7s 1s ease both;
+  animation:bkshow 7s 1s ease both;
 }
 
 
@@ -850,16 +851,16 @@ body {
 .p5_title{
   z-index: 998;
   position: absolute;
-  bottom: 40px;
+  bottom: 10px;
   left: 0px;
   background-color: #e08f58;
   width: 100%;
-  height: 20px;
+  height: 15px;
 }
 .p5_text{
   z-index: 998;
   position: absolute;
-  bottom: 50px;
+  bottom: 10px;
   left: 0px;
   width: 100%;
   height: 35px;
@@ -876,10 +877,182 @@ body {
   left: 0px;
   background-color: #ffad75;
   width: 100%;
-  height: 40px;
+  height: 10px;
+}
+.p5_tips{
+  height: 0px;
+  width: 0px;
+  position: relative;
+  
+}
+.p5_tips span{
+  position: absolute;
+  left:35px;
+  bottom: 5px;
+  height: 55px;
+  width: 65px;
+  background-image: url("/app/images/p5_1.png");
+  background-repeat: no-repeat;
 }
 
+.p5_solid_exra{
+  background-color: #ff6600;
+}
+.p5_title_exra{
+  background-color: #c14d00;
+}
+.p5_tips{
+  display: none;
+}
+.swiper-slide-active .p5_tips{
+  animation: flash 2s 1s ease both;
+}
+
+.swiper-slide-active .p5_1 .p5_solid{
+  animation:p5Ha 1s 1s ease both;
+}
+.swiper-slide-active .p5_1 .p5_title{
+  animation:p5Ta 1s 1s ease both;
+}
+.swiper-slide-active .p5_1 .p5_text{
+  animation:p5Ta 1s 1s ease both;
+}
+
+.swiper-slide-active .p5_2 .p5_solid{
+  animation:p5Ha2 1s 1s ease both;
+}
+.swiper-slide-active .p5_2 .p5_title{
+  animation:p5Ta2 1s 1s ease both;
+}
+.swiper-slide-active .p5_2 .p5_text{
+  animation:p5Ta2 1s 1s ease both;
+}
+
+.swiper-slide-active .p5_3 .p5_solid{
+  animation:p5Ha3 1s 1s ease both;
+}
+.swiper-slide-active .p5_3 .p5_title{
+  animation:p5Ta3 1s 1s ease both;
+}
+.swiper-slide-active .p5_3 .p5_text{
+  animation:p5Ta3 1s 1s ease both;
+}
+
+.swiper-slide-active .p5_4 .p5_solid{
+  animation:p5Ha4 1s 1s ease both;
+}
+.swiper-slide-active .p5_4 .p5_title{
+  animation:p5Ta4 1s 1s ease both;
+}
+.swiper-slide-active .p5_4 .p5_text{
+  animation:p5Ta4 1s 1s ease both;
+}
+
+.swiper-slide-active .p5_5 .p5_solid{
+  animation:p5Ha5 1s 1s ease both;
+}
+.swiper-slide-active .p5_5 .p5_title{
+  animation:p5Ta5 1s 1s ease both;
+}
+.swiper-slide-active .p5_5 .p5_text{
+  animation:p5Ta5 1s 1s ease both;
+}
 /********************** animate *******************/
+
+@keyframes flash{
+    0%{
+      display: block;
+    }
+    5%,100%,50% {
+        opacity: 1
+    }
+
+    25%,75% {
+        opacity: 0
+    }
+}
+
+@keyframes p5Ha2{
+  from{
+    height: 10px;
+  }
+  to{
+    height: 40px;
+  }
+}
+@keyframes p5Ta2{
+  from{
+    bottom: 10px;
+  }
+  to{
+    bottom: 40px;
+  }
+}
+@keyframes p5Ha3{
+  from{
+    height: 10xp;
+  }
+  to{
+    height: 130px;
+  }
+}
+@keyframes p5Ta3{
+  from{
+    bottom: 10xp;
+  }
+  to{
+    bottom: 130px;
+  }
+}
+@keyframes p5Ha4{
+  from{
+    height: 10xp;
+  }
+  to{
+    height: 200px;
+  }
+}
+@keyframes p5Ta4{
+  from{
+    bottom: 10xp;
+  }
+  to{
+    bottom: 200px;
+  }
+}
+@keyframes p5Ha5{
+  from{
+    height: 10xp;
+  }
+  to{
+    height: 40px;
+  }
+}
+@keyframes p5Ta5{
+  from{
+    bottom: 10xp;
+  }
+  to{
+    bottom: 40px;
+  }
+}
+@keyframes p5Ta{
+  from{
+    bottom: 10xp;
+  }
+  to{
+    bottom: 10px;
+  }
+}
+
+@keyframes p5Ha{
+  from{
+    height: 10xp;
+  }
+  to{
+    height: 10px;
+  }
+}
 
 @keyframes bkshow{
   from{
@@ -1045,13 +1218,13 @@ body {
   }
 }
 
-@-webkit-keyframes bounceInUp{
+@keyframes bounceInUp{
   0%{opacity:0;
-  -webkit-transform:translateY(2000px)}
+  transform:translateY(2000px)}
   60%{opacity:1;
-  -webkit-transform:translateY(-30px)}
-  80%{-webkit-transform:translateY(10px)}
-  100%{-webkit-transform:translateY(0)}
+  transform:translateY(-30px)}
+  80%{transform:translateY(10px)}
+  100%{transform:translateY(0)}
   }
   @-moz-keyframes bounceInUp{
   0%{opacity:0;
@@ -1062,13 +1235,13 @@ body {
   100%{-moz-transform:translateY(0)}
 }
 
-@-webkit-keyframes bounceInLeft{
+@keyframes bounceInLeft{
   0%{opacity:0;
-  -webkit-transform:translateX(-2000px)}
+  transform:translateX(-2000px)}
   60%{opacity:1;
-  -webkit-transform:translateX(30px)}
-  80%{-webkit-transform:translateX(-10px)}
-  100%{-webkit-transform:translateX(0)}
+  transform:translateX(30px)}
+  80%{transform:translateX(-10px)}
+  100%{transform:translateX(0)}
   }
   @-moz-keyframes bounceInLeft{
   0%{opacity:0;
@@ -1079,14 +1252,14 @@ body {
   100%{-moz-transform:translateX(0)}
 }
 
-@-webkit-keyframes wobble{
-  0%{-webkit-transform:translateX(0%)}
-  15%{-webkit-transform:translateX(-25%) rotate(-5deg)}
-  30%{-webkit-transform:translateX(20%) rotate(3deg)}
-  45%{-webkit-transform:translateX(-15%) rotate(-3deg)}
-  60%{-webkit-transform:translateX(10%) rotate(2deg)}
-  75%{-webkit-transform:translateX(-5%) rotate(-1deg)}
-  100%{-webkit-transform:translateX(0%)}
+@keyframes wobble{
+  0%{transform:translateX(0%)}
+  15%{transform:translateX(-25%) rotate(-5deg)}
+  30%{transform:translateX(20%) rotate(3deg)}
+  45%{transform:translateX(-15%) rotate(-3deg)}
+  60%{transform:translateX(10%) rotate(2deg)}
+  75%{transform:translateX(-5%) rotate(-1deg)}
+  100%{transform:translateX(0%)}
   }
   @-moz-keyframes wobble{
   0%{-moz-transform:translateX(0%)}
@@ -1098,10 +1271,10 @@ body {
   100%{-moz-transform:translateX(0%)}
 }
 
-@-webkit-keyframes bounce{
-  0%,20%,50%,80%,100%{-webkit-transform:translateY(0)}
-  40%{-webkit-transform:translateY(-30px)}
-  60%{-webkit-transform:translateY(-15px)}
+@keyframes bounce{
+  0%,20%,50%,80%,100%{transform:translateY(0)}
+  40%{transform:translateY(-30px)}
+  60%{transform:translateY(-15px)}
   }
   @-moz-keyframes bounce{
   0%,20%,50%,80%,100%{-moz-transform:translateY(0)}
