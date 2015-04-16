@@ -19,36 +19,36 @@
 		speed: 1e3,
 		onSlideChangeEnd: function(sp) {
 			sp.activeIndex == 4 ? callPie() : false;
+			sp.activeIndex == 1 ? (function() {
+								var radarChartData = {
+					labels: ["81款保险产品", "8款贷款产品", "7款存款产品", "6款基金产品", "1439款理财产品", "169款信托产品"],
+
+					datasets: [{
+						label: "My First dataset",
+						fillColor: "rgba(100, 100, 100, 0.8)",
+						strokeColor: "rgba(0,0,0,0)",
+						pointColor: "#ff6600",
+						pointStrokeColor: "#ff6600",
+						pointHighlightFill: "#000",
+						pointHighlightStroke: "rgba(220,220,220,1)",
+						data: [96, 78, 68, 63, 159, 109]
+					}]
+				};
+				window.myRadar = new Chart(document.getElementById("canvas").getContext("2d")).Radar(radarChartData, {
+					responsive: true,
+					scaleLineColor: "#fff",
+					angleLineColor: "#fff",
+					showTooltips: false,
+					pointLabelFontFamily: "'Arial'",
+					//String - Point label font weight
+					pointLabelFontStyle: "normal",
+					//Number - Point label font size in pixels
+					pointLabelFontSize: 15,
+					//String - Point label font colour
+					pointLabelFontColor: "#ff6600"
+				});
+			}()) : false;
 		}
-	});
-
-	var radarChartData = {
-		labels: ["81款保险产品", "8款贷款产品", "7款存款产品", "6款基金产品", "1439款理财产品", "169款信托产品"],
-
-		datasets: [{
-			label: "My First dataset",
-			fillColor: "rgba(100, 100, 100, 0.8)",
-			strokeColor: "rgba(0,0,0,0)",
-			pointColor: "#ff6600",
-			pointStrokeColor: "#ff6600",
-			pointHighlightFill: "#000",
-			pointHighlightStroke: "rgba(220,220,220,1)",
-			data: [81, 8, 7, 6, 439, 169]
-		}]
-	};
-
-	window.myRadar = new Chart(document.getElementById("canvas").getContext("2d")).Radar(radarChartData, {
-		responsive: true,
-		scaleLineColor: "#fff",
-		angleLineColor: "#fff",
-		showTooltips: false,
-		pointLabelFontFamily: "'Arial'",
-		//String - Point label font weight
-		pointLabelFontStyle: "normal",
-		//Number - Point label font size in pixels
-		pointLabelFontSize: 15,
-		//String - Point label font colour
-		pointLabelFontColor: "#fff"
 	});
 
 	var doughnutData = [

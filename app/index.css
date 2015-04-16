@@ -212,7 +212,7 @@ html {
   }
   .solid,
   .conta {
-    height: 250px !important;
+    height: 270px !important;
   }
   .conta {
     width: 320px !important;
@@ -357,7 +357,7 @@ body {
   width: 60px;
   height: 20px;
   line-height: 20px;
-  margin-right: 15px;
+  margin-left: 10px;
   font-size: 15px;
 }
 .swiper-slide .content .solid_tits li:last-child {
@@ -418,7 +418,7 @@ body {
   height: 0.75rem;
 }
 .topWord {
-  padding-top: 60px;
+  padding-top: 30px;
   padding-left: 20px;
   font-size: 0.15rem;
   line-height: 150%;
@@ -729,7 +729,7 @@ body {
   font-size: 0.2rem;
 }
 .fs30 {
-  font-size: 0.3rem;
+  font-size: 25px;
 }
 .cl_ff6600 {
   color: #ff6600;
@@ -765,7 +765,7 @@ body {
   height: 300px;
   position: relative;
   float: left;
-  margin-right: 15px;
+  margin-left: 10px;
 }
 .solid:last-child {
   margin-right: 0px;
@@ -779,7 +779,7 @@ body {
 .oval {
   z-index: 999;
   position: absolute;
-  width: 60px;
+  width: 50px;
   height: 30px;
   background-color: #c53f08;
   border-radius: 50%;
@@ -790,12 +790,12 @@ body {
   z-index: 998;
   position: absolute;
   bottom: 0px;
-  left: 0px;
   background-color: #fc4e0a;
-  width: 60px;
+  width: 50px;
   height: 15px;
   border-bottom-right-radius: 30px 18px;
   border-bottom-left-radius: 30px 18px;
+  left: 0px;
 }
 .swiper-slide-active .ps1 {
   -webkit-animation: psBottomAdd1 1s .8s ease both;
@@ -853,6 +853,14 @@ body {
 .stp {
   width: 100%;
   height: 200px;
+}
+.swiper-slide-active .stp {
+  -webkit-animation: wobble 1s 1s ease both;
+          animation: wobble 1s 1s ease both;
+}
+.bk svg {
+  width: 80px;
+  height: 80px;
 }
 .stp img {
   width: 80px;
@@ -1280,45 +1288,46 @@ body {
           animation: p5Ta5 1s 1s ease both;
 }
 .swiper-slide-active .p13_1 {
-  -webkit-animation: p13_1 1s 1s ease both;
-          animation: p13_1 1s 1s ease both;
+  -webkit-animation: p13_1 2s 0.5s ease both;
+          animation: p13_1 2s 0.5s ease both;
 }
 .swiper-slide-active .p13_2 {
-  -webkit-animation: p13_2 1s 1s ease both;
-          animation: p13_2 1s 1s ease both;
+  -webkit-animation: p13_2 2s 0.5s ease both;
+          animation: p13_2 2s 0.5s ease both;
 }
 .swiper-slide-active .p13_3 {
-  -webkit-animation: p13_3 1s 1s ease both;
-          animation: p13_3 1s 1s ease both;
+  -webkit-animation: p13_3 2s 0.5s ease both;
+          animation: p13_3 2s 0.5s ease both;
 }
 .swiper-slide-active .p13_4 {
-  -webkit-animation: p13_4 1s 1s ease both;
-          animation: p13_4 1s 1s ease both;
+  -webkit-animation: p13_4 2s 0.5s ease both;
+          animation: p13_4 2s 0.5s ease both;
 }
 .swiper-slide-active .p13_5 {
-  -webkit-animation: p13_5 1s 1s ease both;
-          animation: p13_5 1s 1s ease both;
+  -webkit-animation: p13_5 2s 0.5s ease both;
+          animation: p13_5 2s 0.5s ease both;
 }
 .swiper-slide-active .p13_6 {
-  -webkit-animation: p13_6 1s 1s ease both;
-          animation: p13_6 1s 1s ease both;
+  -webkit-animation: p13_6 2s 0.5s ease both;
+          animation: p13_6 2s 0.5s ease both;
 }
 .swiper-slide-active .per {
   -webkit-animation: wobble 1s 1s ease both;
           animation: wobble 1s 1s ease both;
 }
 .bus {
-  width: 100%;
-  height: 100%;
+  width: 260px;
+  height: 270px;
   background-image: url("/app/images/bus.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: 100%;
-  background-position: 0px 45px;
+  background-position: 0px 65px;
+  margin: 0 auto;
 }
 .wheel {
   position: absolute;
-  top: 209px;
+  top: 228px;
   width: 22px;
   height: 22px;
   background-repeat: no-repeat;
@@ -1334,12 +1343,12 @@ body {
   width: 50px;
   height: 50px;
   background-repeat: no-repeat;
-  background-size: 75%;
+  background-size: 100%;
   background-image: url("/app/images/p15_1.png");
 }
 .busman {
   position: absolute;
-  top: 90px;
+  top: 110px;
   left: 30px;
   width: 80px;
   height: 80px;
@@ -1379,6 +1388,7 @@ body {
   width: 100%;
   height: 100%;
   margin: 0 auto;
+  background-image: url("/app/images/star.png");
 }
 /********************** animate *******************/
 @-webkit-keyframes tyre-rotate {
@@ -1429,7 +1439,7 @@ body {
     width: 0%;
   }
   to {
-    width: 49%;
+    width: 59%;
   }
 }
 @keyframes p13_1 {
@@ -1437,7 +1447,7 @@ body {
     width: 0%;
   }
   to {
-    width: 49%;
+    width: 59%;
   }
 }
 @-webkit-keyframes p13_2 {
@@ -1445,7 +1455,7 @@ body {
     width: 0%;
   }
   to {
-    width: 37%;
+    width: 47%;
   }
 }
 @keyframes p13_2 {
@@ -1453,7 +1463,7 @@ body {
     width: 0%;
   }
   to {
-    width: 37%;
+    width: 47%;
   }
 }
 @-webkit-keyframes p13_3 {
@@ -1461,7 +1471,7 @@ body {
     width: 0%;
   }
   to {
-    width: 6%;
+    width: 16%;
   }
 }
 @keyframes p13_3 {
@@ -1469,7 +1479,7 @@ body {
     width: 0%;
   }
   to {
-    width: 6%;
+    width: 16%;
   }
 }
 @-webkit-keyframes p13_4 {
@@ -1477,7 +1487,7 @@ body {
     width: 0%;
   }
   to {
-    width: 5%;
+    width: 15%;
   }
 }
 @keyframes p13_4 {
@@ -1485,7 +1495,7 @@ body {
     width: 0%;
   }
   to {
-    width: 5%;
+    width: 15%;
   }
 }
 @-webkit-keyframes p13_5 {
@@ -1493,7 +1503,7 @@ body {
     width: 0%;
   }
   to {
-    width: 2%;
+    width: 12%;
   }
 }
 @keyframes p13_5 {
@@ -1501,7 +1511,7 @@ body {
     width: 0%;
   }
   to {
-    width: 2%;
+    width: 12%;
   }
 }
 @-webkit-keyframes p13_6 {
@@ -1509,7 +1519,7 @@ body {
     width: 0%;
   }
   to {
-    width: 1%;
+    width: 12%;
   }
 }
 @keyframes p13_6 {
@@ -1517,7 +1527,7 @@ body {
     width: 0%;
   }
   to {
-    width: 1%;
+    width: 12%;
   }
 }
 @-webkit-keyframes flash {
@@ -1764,7 +1774,7 @@ body {
     height: 15px;
   }
   to {
-    height: 140px;
+    height: 200px;
   }
 }
 @keyframes heightAdd {
@@ -1772,7 +1782,7 @@ body {
     height: 15px;
   }
   to {
-    height: 140px;
+    height: 200px;
   }
 }
 @-webkit-keyframes heightAdd1 {
@@ -1780,7 +1790,7 @@ body {
     height: 15px;
   }
   to {
-    height: 80px;
+    height: 140px;
   }
 }
 @keyframes heightAdd1 {
@@ -1788,7 +1798,7 @@ body {
     height: 15px;
   }
   to {
-    height: 80px;
+    height: 140px;
   }
 }
 @-webkit-keyframes heightAdd2 {
@@ -1796,7 +1806,7 @@ body {
     height: 15px;
   }
   to {
-    height: 70px;
+    height: 130px;
   }
 }
 @keyframes heightAdd2 {
@@ -1804,7 +1814,7 @@ body {
     height: 15px;
   }
   to {
-    height: 70px;
+    height: 130px;
   }
 }
 @-webkit-keyframes heightAdd3 {
@@ -1812,7 +1822,7 @@ body {
     height: 15px;
   }
   to {
-    height: 40px;
+    height: 100px;
   }
 }
 @keyframes heightAdd3 {
@@ -1820,7 +1830,7 @@ body {
     height: 15px;
   }
   to {
-    height: 40px;
+    height: 100px;
   }
 }
 @-webkit-keyframes psBottomAdd1 {
@@ -1828,7 +1838,7 @@ body {
     bottom: 15px;
   }
   to {
-    bottom: 140px;
+    bottom: 200px;
   }
 }
 @keyframes psBottomAdd1 {
@@ -1836,7 +1846,7 @@ body {
     bottom: 15px;
   }
   to {
-    bottom: 140px;
+    bottom: 200px;
   }
 }
 @-webkit-keyframes psBottomAdd11 {
@@ -1844,7 +1854,7 @@ body {
     bottom: 15px;
   }
   to {
-    bottom: 120px;
+    bottom: 180px;
   }
 }
 @keyframes psBottomAdd11 {
@@ -1852,7 +1862,7 @@ body {
     bottom: 15px;
   }
   to {
-    bottom: 120px;
+    bottom: 180px;
   }
 }
 @-webkit-keyframes psBottomAdd2 {
@@ -1860,7 +1870,7 @@ body {
     bottom: 15px;
   }
   to {
-    bottom: 80px;
+    bottom: 140px;
   }
 }
 @keyframes psBottomAdd2 {
@@ -1868,7 +1878,7 @@ body {
     bottom: 15px;
   }
   to {
-    bottom: 80px;
+    bottom: 140px;
   }
 }
 @-webkit-keyframes psBottomAdd22 {
@@ -1876,7 +1886,7 @@ body {
     bottom: 15px;
   }
   to {
-    bottom: 60px;
+    bottom: 100px;
   }
 }
 @keyframes psBottomAdd22 {
@@ -1884,7 +1894,7 @@ body {
     bottom: 15px;
   }
   to {
-    bottom: 60px;
+    bottom: 100px;
   }
 }
 @-webkit-keyframes psBottomAdd3 {
@@ -1892,7 +1902,7 @@ body {
     bottom: 15px;
   }
   to {
-    bottom: 70px;
+    bottom: 130px;
   }
 }
 @keyframes psBottomAdd3 {
@@ -1900,7 +1910,7 @@ body {
     bottom: 15px;
   }
   to {
-    bottom: 70px;
+    bottom: 130px;
   }
 }
 @-webkit-keyframes psBottomAdd33 {
@@ -1908,7 +1918,7 @@ body {
     bottom: 15px;
   }
   to {
-    bottom: 50px;
+    bottom: 110px;
   }
 }
 @keyframes psBottomAdd33 {
@@ -1916,7 +1926,7 @@ body {
     bottom: 15px;
   }
   to {
-    bottom: 50px;
+    bottom: 110px;
   }
 }
 @-webkit-keyframes psBottomAdd4 {
@@ -1924,7 +1934,7 @@ body {
     bottom: 15px;
   }
   to {
-    bottom: 40px;
+    bottom: 100px;
   }
 }
 @keyframes psBottomAdd4 {
@@ -1932,7 +1942,7 @@ body {
     bottom: 15px;
   }
   to {
-    bottom: 40px;
+    bottom: 100px;
   }
 }
 @-webkit-keyframes psBottomAdd44 {
@@ -1940,7 +1950,7 @@ body {
     bottom: 15px;
   }
   to {
-    bottom: 20px;
+    bottom: 80px;
   }
 }
 @keyframes psBottomAdd44 {
@@ -1948,7 +1958,7 @@ body {
     bottom: 15px;
   }
   to {
-    bottom: 20px;
+    bottom: 80px;
   }
 }
 @-webkit-keyframes bottomAdd1 {
@@ -1956,7 +1966,7 @@ body {
     bottom: 0px;
   }
   to {
-    bottom: 125px;
+    bottom: 185px;
   }
 }
 @keyframes bottomAdd1 {
@@ -1964,7 +1974,7 @@ body {
     bottom: 0px;
   }
   to {
-    bottom: 125px;
+    bottom: 185px;
   }
 }
 @-webkit-keyframes bottomAdd2 {
@@ -1972,7 +1982,7 @@ body {
     bottom: 0px;
   }
   to {
-    bottom: 65px;
+    bottom: 125px;
   }
 }
 @keyframes bottomAdd2 {
@@ -1980,7 +1990,7 @@ body {
     bottom: 0px;
   }
   to {
-    bottom: 65px;
+    bottom: 125px;
   }
 }
 @-webkit-keyframes bottomAdd3 {
@@ -1988,7 +1998,7 @@ body {
     bottom: 0px;
   }
   to {
-    bottom: 55px;
+    bottom: 115px;
   }
 }
 @keyframes bottomAdd3 {
@@ -1996,7 +2006,7 @@ body {
     bottom: 0px;
   }
   to {
-    bottom: 55px;
+    bottom: 115px;
   }
 }
 @-webkit-keyframes bottomAdd4 {
@@ -2004,7 +2014,7 @@ body {
     bottom: 0px;
   }
   to {
-    bottom: 25px;
+    bottom: 85px;
   }
 }
 @keyframes bottomAdd4 {
@@ -2012,7 +2022,7 @@ body {
     bottom: 0px;
   }
   to {
-    bottom: 25px;
+    bottom: 85px;
   }
 }
 @-webkit-keyframes bounceInUp {
