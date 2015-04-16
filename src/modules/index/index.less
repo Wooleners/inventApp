@@ -1218,7 +1218,90 @@ body {
 .swiper-slide-active .per{
   animation: wobble 1s 1s ease both;
 }
+.bus{
+  width: 100%;
+  height:100%;
+  background-image: url("/app/images/bus.png");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100%;
+  background-position: 0px 45px;
+}
+.wheel{
+  position: absolute;
+  top: 209px;
+  width: 22px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("/app/images/wheel.png");
+  animation: tyre-rotate 1s infinite linear;
+}
+.bus_dialog{
+  position: absolute;
+  left:0px;
+  top: 0px;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-image: url("/app/images/p15_1.png");
+}
+.busman{
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("/app/images/man.png");
+  animation: wobble 1s 1s ease both;
+}
+.wr{
+  right: 38px;
+}
+.wl{
+  left: 39px;
+}
+.cover{
+  position: relative;
+  height:100%;
+  margin: 0 auto;
+  width: 320px;
+  background-image: url("/app/images/p18_2.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: 50%;
+}
+.cover_dialog{
+  position: absolute;
+  top: 50px;
+  left: 180px;
+  width:100px;
+  height: 100px;
+  background-image: url("/app/images/p18_1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.conta1{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
 /********************** animate *******************/
+@keyframes tyre-rotate {
+    from {
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
 @-webkit-keyframes wobble{
 0%{-webkit-transform:translateX(0%)}
 15%{-webkit-transform:translateX(-25%) rotate(-5deg)}

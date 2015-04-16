@@ -85,9 +85,6 @@
 	];
 
 	function callPie() {
-		if(!!window.myDoughnut){
-			return;
-		}
 		var ctx = document.getElementById("chart-area-wrap").getContext("2d"),
 			ctx2 = document.getElementById("chart-area-outer").getContext("2d"),
 			ctx3 = document.getElementById("chart-area-inner").getContext("2d");
