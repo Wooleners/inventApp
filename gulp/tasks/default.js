@@ -24,7 +24,7 @@ gulp.task('deploy',['clean:app'],function(){
 //browserSync mode
 gulp.task('browser-sync', function() {
     browserSync({
-        open: "external",
+        open: false,
         index: "app/index.html",
         server: {
             baseDir: ""

@@ -51,6 +51,10 @@
 		}
 	});
 
+	document.getElementById("person").addEventListener("click", function(){
+		mySwiper.slideTo(18);
+	})
+
 	var doughnutData = [
 
 		{
