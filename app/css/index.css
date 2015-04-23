@@ -303,7 +303,7 @@ body {
   width: 100%;
   height: 100%;
   color: #fff;
-  background: #333333 url("/app/images/bg.jpg") no-repeat;
+  background: #333333 url("images/bg.jpg") no-repeat;
   background-size: cover;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -313,7 +313,7 @@ body {
 .swiper-container {
   width: 100%;
   height: 100%;
-  background: #333333 url("/app/images/bg.jpg") no-repeat;
+  background: #333333 url("images/bg.jpg") no-repeat;
   background-size: cover;
   position: absolute;
   overflow: hidden;
@@ -396,7 +396,7 @@ body {
 .person span:first-child {
   width: 35px;
   height: 60px;
-  background: url("/app/images/person.png") no-repeat;
+  background: url("images/person.png") no-repeat;
   background-size: cover;
 }
 .person span:last-child {
@@ -942,7 +942,7 @@ body {
 .talks .male .male_dialog {
   width: 100%;
   height: 100px;
-  background-image: url("/app/images/p4_4.png");
+  background-image: url("images/p4_4.png");
   background-repeat: no-repeat;
   background-position: 0px 35px;
   background-size: 80%;
@@ -950,7 +950,7 @@ body {
 .talks .male .male_solid {
   width: 100%;
   height: 100px;
-  background-image: url("/app/images/p4_1.png");
+  background-image: url("images/p4_1.png");
   background-repeat: no-repeat;
   background-position: 40px 0px;
 }
@@ -964,7 +964,7 @@ body {
 .talks .female .female_dialog {
   width: 100%;
   height: 100px;
-  background-image: url("/app/images/p4_5.png");
+  background-image: url("images/p4_5.png");
   background-repeat: no-repeat;
   background-position: 14px 35px;
   background-size: 80%;
@@ -972,7 +972,7 @@ body {
 .talks .female .female_solid {
   width: 100%;
   height: 100px;
-  background-image: url("/app/images/p4_2.png");
+  background-image: url("images/p4_2.png");
   background-repeat: no-repeat;
   background-position: 0px 0px;
 }
@@ -1018,7 +1018,7 @@ body {
   bottom: 5px;
   height: 55px;
   width: 65px;
-  background-image: url("/app/images/p5_1.png");
+  background-image: url("images/p5_1.png");
   background-repeat: no-repeat;
 }
 .p5_solid_exra {
@@ -1033,7 +1033,7 @@ body {
 .p6_head {
   width: 260px;
   height: 100px;
-  background-image: url("/app/images/p6_1.png");
+  background-image: url("images/p6_1.png");
   background-repeat: no-repeat;
   background-position: 60%;
   background-size: 45%;
@@ -1042,7 +1042,7 @@ body {
 .p6_money {
   width: 260px;
   height: 150px;
-  background-image: url("/app/images/p6_2.png");
+  background-image: url("images/p6_2.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 60%;
@@ -1075,40 +1075,40 @@ body {
   margin: 0 auto;
 }
 .picon1 {
-  background-image: url("/app/images/p7_1.png");
+  background-image: url("images/p7_1.png");
 }
 .picon2 {
-  background-image: url("/app/images/p7_2.png");
+  background-image: url("images/p7_2.png");
 }
 .picon3 {
-  background-image: url("/app/images/p7_3.png");
+  background-image: url("images/p7_3.png");
 }
 .picon4 {
-  background-image: url("/app/images/p7_4.png");
+  background-image: url("images/p7_4.png");
 }
 .picon5 {
-  background-image: url("/app/images/p7_5.png");
+  background-image: url("images/p7_5.png");
 }
 .picon6 {
-  background-image: url("/app/images/p7_6.png");
+  background-image: url("images/p7_6.png");
 }
 .picon7 {
-  background-image: url("/app/images/p7_7.png");
+  background-image: url("images/p7_7.png");
 }
 .picon8 {
-  background-image: url("/app/images/p7_8.png");
+  background-image: url("images/p7_8.png");
 }
 .picon9 {
-  background-image: url("/app/images/p7_9.png");
+  background-image: url("images/p7_9.png");
 }
 .picon10 {
-  background-image: url("/app/images/p7_10.png");
+  background-image: url("images/p7_10.png");
 }
 .picon11 {
-  background-image: url("/app/images/p7_11.png");
+  background-image: url("images/p7_11.png");
 }
 .picon12 {
-  background-image: url("/app/images/p7_12.png");
+  background-image: url("images/p7_12.png");
 }
 .p_s_left,
 .p_s_right {
@@ -1138,7 +1138,7 @@ body {
   top: 0px;
   width: 100px;
   height: 100%;
-  background-image: url("/app/images/p8_1.png");
+  background-image: url("images/p8_1.png");
   background-repeat: no-repeat;
   background-position: 50% 70px;
   background-size: 80%;
@@ -1150,7 +1150,7 @@ body {
   top: 0px;
   width: 100px;
   height: 100%;
-  background-image: url("/app/images/p8_2.png");
+  background-image: url("images/p8_2.png");
   background-repeat: no-repeat;
   background-position: 50% 70px;
   background-size: 80%;
@@ -1162,7 +1162,7 @@ body {
   left: 40%;
   width: 100px;
   height: 100px;
-  background-image: url("/app/images/p8_3.png");
+  background-image: url("images/p8_3.png");
   background-repeat: no-repeat;
   background-size: 80%;
 }
@@ -1179,7 +1179,7 @@ body {
   left: 0px;
   top: 0px;
   height: 100%;
-  background: url("/app/images/p11_1.png") no-repeat;
+  background: url("images/p11_1.png") no-repeat;
   background-size: 85%;
 }
 .p11 .oldman span {
@@ -1189,7 +1189,7 @@ body {
   left: 100px;
   top: 0px;
   height: 100%;
-  background: url("/app/images/p11_2.png") no-repeat;
+  background: url("images/p11_2.png") no-repeat;
   background-size: 50%;
 }
 .p11 .oldman_text {
@@ -1219,7 +1219,7 @@ body {
 }
 .p12 .p12_male .p12_soild {
   opacity: 0;
-  background-image: url("/app/images/p12_3.png");
+  background-image: url("images/p12_3.png");
   background-size: 55%;
   background-repeat: no-repeat;
   height: 190px;
@@ -1227,7 +1227,7 @@ body {
 }
 .p12 .p12_male .p12_dialog {
   opacity: 0;
-  background-image: url("/app/images/p12_1.png");
+  background-image: url("images/p12_1.png");
   background-size: 50%;
   background-repeat: no-repeat;
   height: 190px;
@@ -1238,7 +1238,7 @@ body {
 }
 .p12 .p12_female .p12_dialog {
   opacity: 0;
-  background-image: url("/app/images/p12_2.png");
+  background-image: url("images/p12_2.png");
   background-size: 50%;
   background-repeat: no-repeat;
   height: 190px;
@@ -1249,7 +1249,7 @@ body {
 }
 .p12 .p12_female .p12_soild {
   opacity: 0;
-  background-image: url("/app/images/p12_4.png");
+  background-image: url("images/p12_4.png");
   background-size: 55%;
   background-repeat: no-repeat;
   height: 190px;
@@ -1305,14 +1305,14 @@ body {
   color: #ffb200;
 }
 .p9 .p8 .p8_male {
-  background-image: url("/app/images/p9_3.png");
+  background-image: url("images/p9_3.png");
   background-position: 100% 85%;
 }
 .p9 .p8 .p8_female {
-  background-image: url("/app/images/p9_2.png");
+  background-image: url("images/p9_2.png");
 }
 .p9 .p8 .p8_dialog {
-  background-image: url("/app/images/p9_1.png");
+  background-image: url("images/p9_1.png");
 }
 .swiper-slide-active .p5_tips_ex {
   -webkit-animation: flashex 0.5s 2s ease-in forwards;
@@ -1523,7 +1523,7 @@ body {
 .bus {
   width: 260px;
   height: 270px;
-  background-image: url("/app/images/bus.png");
+  background-image: url("images/bus.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: 100%;
@@ -1537,7 +1537,7 @@ body {
   height: 22px;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-image: url("/app/images/wheel.png");
+  background-image: url("images/wheel.png");
   -webkit-animation: tyre-rotate 1s infinite linear;
           animation: tyre-rotate 1s infinite linear;
 }
@@ -1549,7 +1549,7 @@ body {
   height: 50px;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-image: url("/app/images/p15_1.png");
+  background-image: url("images/p15_1.png");
 }
 .busman {
   position: absolute;
@@ -1559,7 +1559,7 @@ body {
   height: 80px;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-image: url("/app/images/man.png");
+  background-image: url("images/man.png");
   -webkit-animation: wobble 1s 1s ease-in both;
           animation: wobble 1s 1s ease-in both;
 }
@@ -1574,7 +1574,7 @@ body {
   height: 100%;
   margin: 0 auto;
   width: 320px;
-  background-image: url("/app/images/p18_2.png");
+  background-image: url("images/p18_2.png");
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: 50%;
@@ -1585,7 +1585,7 @@ body {
   left: 180px;
   width: 100px;
   height: 100px;
-  background-image: url("/app/images/p18_1.png");
+  background-image: url("images/p18_1.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -1593,7 +1593,7 @@ body {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  background-image: url("/app/images/star.png");
+  background-image: url("images/star.png");
 }
 .swiper-slide-active .p8_male {
   -webkit-animation: showani 1s 1s ease both;
@@ -1685,7 +1685,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 50px;
   }
 }
 @keyframes pr1 {
@@ -1693,7 +1693,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 50px;
   }
 }
 @-webkit-keyframes pl2 {
@@ -1701,7 +1701,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 70px;
   }
 }
 @keyframes pl2 {
@@ -1709,7 +1709,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 70px;
   }
 }
 @-webkit-keyframes pr2 {
@@ -1717,7 +1717,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 67px;
   }
 }
 @keyframes pr2 {
@@ -1725,7 +1725,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 67px;
   }
 }
 @-webkit-keyframes pl3 {
@@ -1733,7 +1733,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 89px;
   }
 }
 @keyframes pl3 {
@@ -1741,7 +1741,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 89px;
   }
 }
 @-webkit-keyframes pr3 {
@@ -1749,7 +1749,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 32px;
   }
 }
 @keyframes pr3 {
@@ -1757,7 +1757,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 32px;
   }
 }
 @-webkit-keyframes pl4 {
@@ -1765,7 +1765,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 10px;
   }
 }
 @keyframes pl4 {
@@ -1773,7 +1773,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 10px;
   }
 }
 @-webkit-keyframes pr4 {
@@ -1781,7 +1781,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 25px;
   }
 }
 @keyframes pr4 {
@@ -1789,7 +1789,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 25px;
   }
 }
 @-webkit-keyframes pl5 {
@@ -1797,7 +1797,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 110px;
   }
 }
 @keyframes pl5 {
@@ -1805,7 +1805,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 110px;
   }
 }
 @-webkit-keyframes pr5 {
@@ -1813,7 +1813,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 67px;
   }
 }
 @keyframes pr5 {
@@ -1821,7 +1821,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 67px;
   }
 }
 @-webkit-keyframes pl6 {
@@ -1829,7 +1829,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 90px;
   }
 }
 @keyframes pl6 {
@@ -1837,7 +1837,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 90px;
   }
 }
 @-webkit-keyframes pr6 {
@@ -1845,7 +1845,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 20px;
   }
 }
 @keyframes pr6 {
@@ -1853,7 +1853,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 20px;
   }
 }
 @-webkit-keyframes pl7 {
@@ -1861,7 +1861,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 60px;
   }
 }
 @keyframes pl7 {
@@ -1869,7 +1869,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 60px;
   }
 }
 @-webkit-keyframes pr7 {
@@ -1877,7 +1877,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 20px;
   }
 }
 @keyframes pr7 {
@@ -1885,7 +1885,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 20px;
   }
 }
 @-webkit-keyframes pl8 {
@@ -1893,7 +1893,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 70px;
   }
 }
 @keyframes pl8 {
@@ -1901,7 +1901,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 70px;
   }
 }
 @-webkit-keyframes pr8 {
@@ -1909,7 +1909,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 50px;
   }
 }
 @keyframes pr8 {
@@ -1917,7 +1917,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 50px;
   }
 }
 @-webkit-keyframes pl9 {
@@ -1925,7 +1925,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 29px;
   }
 }
 @keyframes pl9 {
@@ -1933,7 +1933,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 29px;
   }
 }
 @-webkit-keyframes pr9 {
@@ -1941,7 +1941,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 56px;
   }
 }
 @keyframes pr9 {
@@ -1949,7 +1949,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 56px;
   }
 }
 @-webkit-keyframes pl10 {
@@ -1957,7 +1957,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 30px;
   }
 }
 @keyframes pl10 {
@@ -1965,7 +1965,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 30px;
   }
 }
 @-webkit-keyframes pr10 {
@@ -1989,7 +1989,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 20px;
   }
 }
 @keyframes pl11 {
@@ -1997,7 +1997,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 20px;
   }
 }
 @-webkit-keyframes pr11 {
@@ -2005,7 +2005,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 24px;
   }
 }
 @keyframes pr11 {
@@ -2013,7 +2013,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 24px;
   }
 }
 @-webkit-keyframes pl12 {
@@ -2021,7 +2021,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 67px;
   }
 }
 @keyframes pl12 {
@@ -2029,7 +2029,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 67px;
   }
 }
 @-webkit-keyframes pr12 {
@@ -2037,7 +2037,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 40px;
   }
 }
 @keyframes pr12 {
@@ -2045,7 +2045,7 @@ body {
     width: 0px;
   }
   to {
-    width: 120px;
+    width: 40px;
   }
 }
 @-webkit-keyframes tyre-rotate {
